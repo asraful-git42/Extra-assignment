@@ -1,0 +1,166 @@
+.nav-bar {
+  max-width: 1440px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.btn-primary {
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: black;
+}
+/* banner-section */
+.banner {
+  background-image: url(assets/Hero-bg.png);
+  text-align: center;
+  padding: 20px 0px;
+}
+.hero {
+  max-width: 700px;
+  margin: 0px auto;
+}
+.banner-header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(13, 19, 33, 1);
+}
+.btn-secendary {
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.btn-secendary:hover {
+  color: black;
+  background-color: #fff;
+}
+/* about-section */
+.about {
+  background-color: rgba(13, 19, 33, 0.02);
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.about-section {
+  padding: 80px 98px;
+  text-align: center;
+}
+.about-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.about-section-text {
+  max-width: 780px;
+  margin: 20px auto;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(13, 19, 33, 1);
+}
+/* about-card */
+
+.about-card {
+  background-color: #fff;
+  padding: 3rem 3.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-card-2 {
+  background-color: #fff;
+  padding: 3rem 3.8rem;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.about-card-left {
+  max-width: 300px;
+  text-align: left;
+}
+.about-card-right-2 {
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-card-header-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.about-card-text {
+  font-size: 1-5rem;
+  font-weight: 500;
+}
+.btn-card {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.btn-card:hover {
+  color: black;
+  background-color: #fff;
+}
+
+/* career-section */
+
+/*responsive media Quary */
+@media screen and (max-width: 576px) {
+  .nav-header,
+  .banner-header,
+  .about-header,
+  .about-card-header-text {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .btn-primary,
+  .btn-secendary,
+  .btn-card {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+  }
+  .hero-text,
+  .about-section-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(13, 19, 33, 1);
+  }
+  .about-section {
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .about-card,
+  .about-card-2 {
+    padding: 10px 12px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .about-card,
+  .about-card-2 {
+    padding: 10px 12px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
